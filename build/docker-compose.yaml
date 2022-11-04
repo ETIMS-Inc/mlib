@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  mlib-ui:
+    image: node:19-alpine3.15
+    container_name: "mlib-ui"
+  mlib:
+    image: golang:1.19.3-alpine3.16
+    container_name: "mlib"
+
